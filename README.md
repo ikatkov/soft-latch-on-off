@@ -2,7 +2,7 @@
 
 source https://www.eevblog.com/forum/beginners/push-button-power-circuit-for-arduino-trying-to-modify-it-for-12v-input/
 
-<img src="./circuit.png" width="300"> 
+<img src="./circuit.png"> 
 
 The button turns on the P-MOSFET when pushed, and also pulls the Arduino GPIO low so button pushes can be detected. The diodes keep the GPIO level and PMOS gate level separate.   
 
