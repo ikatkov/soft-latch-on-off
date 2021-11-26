@@ -102,7 +102,7 @@ Text GLabel 4500 3900 2    50   Input ~ 0
 V_IN
 Text GLabel 4250 4450 0    50   Input ~ 0
 V_OUT
-Text GLabel 4250 4350 0    50   Input ~ 0
+Text GLabel 4450 4550 0    50   Input ~ 0
 GPIO
 Text GLabel 4200 4100 2    50   Input ~ 0
 BTN
@@ -117,10 +117,8 @@ F 3 "~" H 4000 4000 50  0001 C CNN
 	1    4000 4000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4250 4550 0    50   Input ~ 0
+Text GLabel 4450 4350 0    50   Input ~ 0
 GND
-Wire Wire Line
-	4250 4550 4450 4550
 $Comp
 L Device:D_Schottky_x2_KCom_AAK D1
 U 1 1 61A0B32A
@@ -485,8 +483,6 @@ Wire Wire Line
 	4200 3900 4500 3900
 Wire Wire Line
 	4250 4450 4450 4450
-Wire Wire Line
-	4450 4350 4250 4350
 Connection ~ 6700 3600
 Wire Wire Line
 	6500 3300 6250 3300
