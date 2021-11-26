@@ -1,0 +1,8 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"SOT-23";1;"D_Schottky_x2_KCom_AAK";;;
+2;"R3";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"100k";;;
+3;"R2";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"1M";;;
+4;"R1";"R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal";1;"330";;;
+5;"Q1";"SOIC-8_3.9x4.9mm_P1.27mm";1;"SI9942DY";;;
+6;"C1";"C_Disc_D4.7mm_W2.5mm_P5.00mm";1;"10nF";;;
+7;"J2,J1";"PinHeader_1x03_P2.54mm_Vertical";2;"Conn_01x03";;;

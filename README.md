@@ -12,6 +12,22 @@ To turn the power off, the Arduino sets the GPIO to Output Low.  Power off will 
 
 # Fabrication
 
+See kicad files.
+
+## BOM
+| Id | Designator | Package | Designation | Value | 
+| ------------- | ------------- | ------------- | ------------- |------------- |
+| 1 | D1 | SOT-23 | D_Schottky_x2_KCom_AAK | |
+| 2 | R3 | R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal |  | 100k | 
+| 3 | R2 | R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal |  | 1M | 
+| 4 | R1 | R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal |  | 330 | 
+| 5 | Q1 | SOIC-8_3.9x4.9mm_P1.27mm | SI9942DY |  | 
+| 6 | C1 | C_Disc_D4.7mm_W2.5mm_P5.00mm |  | 10nF | 
+| 7 | J2,J1 | PinHeader_1x03_P2.54mm_Vertical | Conn_01x03 |  | 
+
+
+## PCB
+
 <img src="./render.png" width="300"> 
 <img src="./front-pcb.png" width="300"> 
 <img src="./back-pcb.png" width="300"> 
