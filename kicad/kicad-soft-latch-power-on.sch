@@ -226,4 +226,35 @@ Wire Wire Line
 Connection ~ 6250 3300
 Wire Wire Line
 	6900 3300 7100 3300
+Text GLabel 4550 2550 1    50   Input ~ 0
+V_IN
+$Comp
+L Simulation_SPICE:VDC V?
+U 1 1 61A0B573
+P 4550 2800
+F 0 "V?" H 4680 2891 50  0000 L CNN
+F 1 "VDC" H 4680 2800 50  0000 L CNN
+F 2 "" H 4550 2800 50  0001 C CNN
+F 3 "~" H 4550 2800 50  0001 C CNN
+F 4 "Y" H 4550 2800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 4550 2800 50  0001 L CNN "Spice_Primitive"
+F 6 "dc(1)" H 4680 2709 50  0000 L CNN "Spice_Model"
+	1    4550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2550 4550 2600
+$Comp
+L power:GND #PWR?
+U 1 1 61A0D8FF
+P 4550 3050
+F 0 "#PWR?" H 4550 2800 50  0001 C CNN
+F 1 "GND" H 4700 3050 50  0000 C CNN
+F 2 "" H 4550 3050 50  0001 C CNN
+F 3 "" H 4550 3050 50  0001 C CNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3050 4550 3000
 $EndSCHEMATC
