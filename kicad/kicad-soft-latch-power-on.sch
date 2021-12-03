@@ -193,7 +193,7 @@ Wire Wire Line
 	6700 4450 6650 4450
 Text GLabel 7100 3300 2    50   Input ~ 0
 V_OUT
-Text GLabel 5350 3300 0    50   Input ~ 0
+Text GLabel 4800 3300 0    50   Input ~ 0
 V_IN
 Wire Wire Line
 	5900 3300 5350 3300
@@ -226,35 +226,38 @@ Wire Wire Line
 Connection ~ 6250 3300
 Wire Wire Line
 	6900 3300 7100 3300
-Text GLabel 4550 2550 1    50   Input ~ 0
-V_IN
 $Comp
-L Simulation_SPICE:VDC V?
-U 1 1 61A0B573
-P 4550 2800
-F 0 "V?" H 4680 2891 50  0000 L CNN
-F 1 "VDC" H 4680 2800 50  0000 L CNN
-F 2 "" H 4550 2800 50  0001 C CNN
-F 3 "~" H 4550 2800 50  0001 C CNN
-F 4 "Y" H 4550 2800 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "V" H 4550 2800 50  0001 L CNN "Spice_Primitive"
-F 6 "dc(1)" H 4680 2709 50  0000 L CNN "Spice_Model"
-	1    4550 2800
+L Transistor_FET:AO3401A Q2
+U 1 1 61A98F12
+P 5150 3400
+F 0 "Q2" V 5492 3400 50  0000 C CNN
+F 1 "AO3401A" V 5401 3400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 3325 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 5150 3400 50  0001 L CNN
+	1    5150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 61A9DB9F
+P 5150 3600
+F 0 "#PWR04" H 5150 3350 50  0001 C CNN
+F 1 "GND" H 5300 3600 50  0000 C CNN
+F 2 "" H 5150 3600 50  0001 C CNN
+F 3 "" H 5150 3600 50  0001 C CNN
+	1    5150 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 2550 4550 2600
-$Comp
-L power:GND #PWR?
-U 1 1 61A0D8FF
-P 4550 3050
-F 0 "#PWR?" H 4550 2800 50  0001 C CNN
-F 1 "GND" H 4700 3050 50  0000 C CNN
-F 2 "" H 4550 3050 50  0001 C CNN
-F 3 "" H 4550 3050 50  0001 C CNN
-	1    4550 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 3050 4550 3000
+	4950 3300 4800 3300
+Wire Notes Line
+	4900 2850 4900 3800
+Wire Notes Line
+	4900 3800 5500 3800
+Wire Notes Line
+	5500 3800 5500 2850
+Wire Notes Line
+	5500 2850 4900 2850
+Text Notes 4750 2800 0    50   ~ 0
+reverse polarity protection
 $EndSCHEMATC

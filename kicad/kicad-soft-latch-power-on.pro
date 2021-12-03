@@ -1,4 +1,4 @@
-update=Friday, November 26, 2021 at 09:42:45 AM
+update=Thursday, December 02, 2021 at 04:07:41 PM
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=default.kicad_wks
@@ -32,6 +42,8 @@ TrackWidth1=0.1524
 TrackWidth2=0.254
 TrackWidth3=0.508
 TrackWidth4=0.762
+TrackWidth5=1.016
+TrackWidth6=1.27
 ViaDiameter1=0.508
 ViaDrill1=0.254
 ViaDiameter2=0.6858
@@ -64,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
@@ -243,13 +255,3 @@ uViaDrill=0.254
 dPairWidth=0.1524
 dPairGap=0.1524
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=default.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
