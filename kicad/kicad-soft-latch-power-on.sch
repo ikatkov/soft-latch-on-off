@@ -259,5 +259,5 @@ Wire Notes Line
 Wire Notes Line
 	5500 2850 4900 2850
 Text Notes 4750 2800 0    50   ~ 0
-reverse polarity protection
+[optional] reverse polarity protection
 $EndSCHEMATC
